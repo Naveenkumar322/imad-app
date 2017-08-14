@@ -37,5 +37,5 @@ for (var i=0; i< names.lenght; i++) {
 }
 
 var ul = document.getElementById('namelist');
-ul innerHTML = list;
+ul.innerHTML = list;
 };
