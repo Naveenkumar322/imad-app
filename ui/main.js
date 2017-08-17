@@ -39,7 +39,7 @@ ul.innerHTML = list;
 
 // Make the request
 var nameInput = document.getElementById('name');
-var name =nameInput.value;
+var name = nameInput.value;
   request.open('GET', 'http://naveenkumar322.imad.hasura-app.io/counter',true);
           request.send(null);
 };
